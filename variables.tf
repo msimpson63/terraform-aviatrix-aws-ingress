@@ -38,7 +38,7 @@ variable "role_fw_s3" {
 
 variable "pan_fw_s3_bucket_bootstrap" {
   description = "This is the bucket that includes the bootsrap information for the PAN FW"
-  default = "globo-90784"
+  default = ""
 }
 
 
@@ -49,8 +49,6 @@ variable "aws_region_1" {
 variable "aws_region_2" {
   default = "us-east-2"
 }  
-
-
 
 
 variable "aws_account_name" {
