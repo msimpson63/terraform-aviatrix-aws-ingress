@@ -33,12 +33,12 @@ variable "home_ip" {
 
 variable "role_fw_s3" {
   description = "The role that allows the FW Instances to read S3 for bootstrapping"
-  default = ""
+  default = "S3AllAccess"
 }
 
 variable "pan_fw_s3_bucket_bootstrap" {
   description = "This is the bucket that includes the bootsrap information for the PAN FW"
-  default = ""
+  default = "globo-90784"
 }
 
 
@@ -86,8 +86,6 @@ variable "pan_fw_username" {
 
 variable "pan_fw_password" {
     default = "Aviatrix123#"
-}
-
 
 
 
